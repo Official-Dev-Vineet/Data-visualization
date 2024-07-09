@@ -73,7 +73,7 @@ const Dashboard = () => {
   return (
     <main style={{ padding: "2rem" }}>
       <h1 style={{ textAlign: "center" }}>Energy Dashboard</h1>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "1.5rem" }}>
         <label>End Year:</label>
         <select
           onChange={(e) => setFilters({ ...filters, end_year: e.target.value })}
